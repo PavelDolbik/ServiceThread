@@ -1,6 +1,7 @@
 ## Service & Thread
 
-Examples of using Service and Thread
+Examples of using Service and Thread:
 
-1. PendingIntentService - Send data between Activity and Service using PendingIntent
+BroadcastReceiver    - Send data between Activity and Service using BroadcastReceiver
+PendingIntentService - Send data between Activity and Service using PendingIntent
 

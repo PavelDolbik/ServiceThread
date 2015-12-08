@@ -6,5 +6,5 @@ Examples of using Service and Thread:
 - PendingIntentService - Send data between Activity and Service using PendingIntent
 - LocalBindingService - Send data between Activity and Service using LocalBinding
 - AidlService - Send data between Activity and Service using AIDL **(differents processes)**
-- Messenger - Send data between Activity and Service using Messenger **(differents processes)**
+- MessengerService - Send data between Activity and Service using Messenger **(differents processes)**
 - SerialTaskThread - Serial tasks, combining tasks into a chain

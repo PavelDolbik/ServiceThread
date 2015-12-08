@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">SerialTaskThread</string>
+    <string name="start">Start</string>
+    <string name="first_task">First task:</string>
+    <string name="second_task">Second task:</string>
+    <string name="result">Result:</string>
+</resources>

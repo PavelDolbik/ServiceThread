@@ -1,3 +1,3 @@
 ## ParallelTaskThread
 
-Parallel execution of several independent tasks
+Parallel execution of several independent tasks **(but general result)**

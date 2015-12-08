@@ -11,3 +11,4 @@ Examples of using Service and Thread:
 
 **Thread**
 - SerialTaskThread - Serial tasks, combining tasks into a chain
+- ParallelTaskThread - Parallel execution of several independent tasks

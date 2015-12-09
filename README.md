@@ -13,7 +13,6 @@ Examples of using Service and Thread:
 - PostExecutor - Send result in UI-thread using post method
 - RunOnUIThread - Send result in UI-thread using runOnUiThread method
 - HandlerUIThread - Send result in UI-thread using handler method.
-- SingleThreadExecutor - Single thread for a long task (using ExecutorService)
 - CallableTaskExecutor - Executor with Callable and result from Future
 - ThreadPool - ThreadPool with custom Factory.
 - SerialTaskThread - Serial tasks, combining tasks into a chain

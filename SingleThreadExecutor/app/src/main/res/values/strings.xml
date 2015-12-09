@@ -1,5 +1,0 @@
-<resources>
-    <string name="app_name">SingleThreadExecutor</string>
-    <string name="btn_start">Start</string>
-    <string name="result">Result:</string>
-</resources>

@@ -8,7 +8,7 @@ ExecutorService executor = Executors.newSingleThreadExecutor();
 ```
 
 #### Start do long task
-You can use execute or submit
+You can use execute or submit.
 The difference is that execute doesn't return a Future, so you can't wait for the completion of the Runnable and get any exception it throws using that.
 ```java
 executor.submit(new Runnable() {

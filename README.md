@@ -10,7 +10,8 @@ Examples of using Service and Thread:
 - MessengerService - Send data between Activity and Service using Messenger **(differents processes)**
 
 **Thread**
-- SerialTaskThread - Serial tasks, combining tasks into a chain
-- ParallelTaskThread - Concurrency execution of several independent tasks **(but general result)**
+- PostExecutor - Send result in UI-thread using post method
 - SingleThreadExecutor - Single thread for a long task (using ExecutorService)
 - CallableTaskExecutor - Executor with Callable and result from Future
+- SerialTaskThread - Serial tasks, combining tasks into a chain
+- ParallelTaskThread - Concurrency execution of several independent tasks **(but general result)**

@@ -70,7 +70,7 @@ public class MyService extends Service {
 }
 ```
 
-#### Add ServiceConnection in Activity and add create Handler in UI-Thread
+#### Add ServiceConnection in Activity and create Handler in UI-Thread
 ```java
 public class MainActivity extends AppCompatActivity  { 
 

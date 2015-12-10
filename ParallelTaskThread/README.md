@@ -12,7 +12,7 @@ public class SimpleExecutor implements Executor {
 }
 ```
 
-#### Start stread
+#### Start thread
 ```java
 SimpleExecutor simpleExecutor = new SimpleExecutor();
 simpleExecutor.execute(new Runnable() {

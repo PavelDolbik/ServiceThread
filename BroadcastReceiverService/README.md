@@ -100,6 +100,13 @@ public class MainActivity extends AppCompatActivity implements Constants {
 }
 ```
 
+#### Start service
+```java
+Intent intent = new Intent(MainActivity.this, MyService.class);
+intent.putExtra(Constants.VALUE, 10);
+startService(intent);
+```
+
 #### Unregister receiver
 ```java
 @Override

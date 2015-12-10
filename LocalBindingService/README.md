@@ -129,7 +129,7 @@ public class MainActivity extends AppCompatActivity  {
 }
 ```
 
-#### Add ServiceListener (send result from Service)
+#### Add ServiceListener (receive result from Service)
 ```java
 public class MainActivity extends AppCompatActivity  { 
 	@Override

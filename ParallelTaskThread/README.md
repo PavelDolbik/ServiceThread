@@ -56,7 +56,7 @@ private String getSecondPartialDataFromNetwork() {
 }
 ```
 
-#### Create executor and start do long tasks
+#### Create executor and start long tasks
 ```java
 SimpleExecutor simpleExecutor = new SimpleExecutor();
 simpleExecutor.execute(new Runnable() {
@@ -81,11 +81,11 @@ simpleExecutor.execute(new Runnable() {
             ThreadPoolExecutor executor = (ThreadPoolExecutor) Executors.newFixedThreadPool(2);
             try {
                 List<Future<String>> futures = executor.invokeAll(tasks);
-                } catch (InterruptedException e) {
-                    e.printStackTrace();
-                } catch (ExecutionException e) {
-                    e.printStackTrace();
-                }
+            } catch (InterruptedException e) {
+                e.printStackTrace();
+            } catch (ExecutionException e) {
+                e.printStackTrace();
+            }
                         
     }
 });

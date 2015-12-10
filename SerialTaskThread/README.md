@@ -111,6 +111,13 @@ protected void onLooperPrepared() {
 }
 ```
 
+#### Start thread
+```java
+MyThread myThread = new MyThread();
+myThread.start();
+myThread.doLongTask();
+```
+
 #### Stop thread
 ```java
 @Override

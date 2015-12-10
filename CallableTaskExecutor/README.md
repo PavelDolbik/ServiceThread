@@ -21,7 +21,8 @@ SimpleExecutor simpleExecutor = new SimpleExecutor();
 ```java
 simpleExecutor.execute(new Runnable() {
     @Override
-    public void run() { };
+    public void run() { }
+};
 ```
 
 #### In this thread start different thread
@@ -32,7 +33,8 @@ You can write:
 simpleExecutor.execute(new Runnable() {
     @Override
     public void run() { 
-	ExecutorService executor = Executors.newFixedThreadPool(1);
+		ExecutorService executor = Executors.newFixedThreadPool(1);
+	}
 };
 ```
 
@@ -41,8 +43,9 @@ simpleExecutor.execute(new Runnable() {
 simpleExecutor.execute(new Runnable() {
     @Override
     public void run() { 
-	ExecutorService executor = Executors.newFixedThreadPool(1);
-	Future<String> future = executor.submit(doLongTask());
+		ExecutorService executor = Executors.newFixedThreadPool(1);
+		Future<String> future = executor.submit(doLongTask()); 
+	}
 };
 ```
 
@@ -51,10 +54,11 @@ simpleExecutor.execute(new Runnable() {
 simpleExecutor.execute(new Runnable() {
     @Override
     public void run() { 
-	ExecutorService executor = Executors.newFixedThreadPool(1);
-	Future<String> future = executor.submit(doLongTask());
-	//This is method blocks the thread
-	String result = future.get();
+		ExecutorService executor = Executors.newFixedThreadPool(1);
+		Future<String> future = executor.submit(doLongTask());
+		//This is method blocks the thread
+		String result = future.get(); 
+	}
 };
 ```
 #### Stop executor

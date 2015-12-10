@@ -15,15 +15,16 @@ public interface Constants {
 ```java
 public class MyService extends Service implements Constants {
 
-@Nullable
-@Override
-public IBinder onBind(Intent intent) {
-    return null;
-}
+	@Nullable
+	@Override
+	public IBinder onBind(Intent intent) {
+		return null;
+	}
 
-@Override
-public int onStartCommand(Intent intent, int flags, int startId) {
-    return super.onStartCommand(intent, flags, startId);
+	@Override
+	public int onStartCommand(Intent intent, int flags, int startId) {
+		return super.onStartCommand(intent, flags, startId);
+	}
 }
 ```
 
